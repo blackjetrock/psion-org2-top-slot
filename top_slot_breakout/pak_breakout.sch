@@ -167,44 +167,6 @@ Wire Wire Line
 	3525 6775 3525 6725
 Wire Wire Line
 	3525 6975 3525 7075
-Wire Wire Line
-	9200 1850 10550 1850
-Wire Wire Line
-	10550 1850 10550 2675
-Wire Wire Line
-	10550 2675 9750 2675
-Wire Wire Line
-	8900 1850 8225 1850
-Wire Wire Line
-	8225 1850 8225 1375
-Wire Wire Line
-	8225 1375 8525 1375
-Text GLabel 7850 1275 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	7850 1275 8525 1275
-$Comp
-L Device:D_Schottky D1
-U 1 1 60D0F436
-P 9050 1850
-F 0 "D1" H 9050 1634 50  0000 C CNN
-F 1 "D_Schottky" H 9050 1725 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 1850 50  0001 C CNN
-F 3 "~" H 9050 1850 50  0001 C CNN
-	1    9050 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J4
-U 1 1 60D0E699
-P 8725 1275
-F 0 "J4" H 8753 1251 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 8753 1160 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8725 1275 50  0001 C CNN
-F 3 "~" H 8725 1275 50  0001 C CNN
-	1    8725 1275
-	1    0    0    -1  
-$EndComp
 $Comp
 L pak_breakout-rescue:GND-Microtan_65_CPU-cache #PWR0129
 U 1 1 60CDD3B7
@@ -803,7 +765,7 @@ Text GLabel 9750 4075 2    50   Input ~ 0
 IO5
 Text GLabel 9750 3975 2    50   Input ~ 0
 IO6
-Text GLabel 9750 3875 2    50   Input ~ 0
+Text GLabel 10150 3500 2    50   Input ~ 0
 IO7
 Text GLabel 4775 6900 2    50   Input ~ 0
 IO0
@@ -827,7 +789,7 @@ U 613E6C75
 F0 "Sheet613E6C74" 50
 F1 "file613E6C74.sch" 50
 $EndSheet
-Text GLabel 9750 3475 2    50   Input ~ 0
+Text GLabel 9750 3875 2    50   Input ~ 0
 IP_CLK
 Text GLabel 9750 3675 2    50   Input ~ 0
 OP_CLK
@@ -835,4 +797,84 @@ Text GLabel 4775 6000 2    50   Input ~ 0
 IP_CLK
 Text GLabel 4775 6100 2    50   Input ~ 0
 OP_CLK
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 61462BE9
+P 1650 2100
+F 0 "J15" H 1622 2074 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 1622 1983 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1650 2100 50  0001 C CNN
+F 3 "~" H 1650 2100 50  0001 C CNN
+	1    1650 2100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 900  1900 2    50   Input ~ 0
+VB
+Text GLabel 1450 2200 0    50   Input ~ 0
+IO7
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 614671EB
+P 1625 2475
+F 0 "J4" H 1597 2449 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 1597 2358 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1625 2475 50  0001 C CNN
+F 3 "~" H 1625 2475 50  0001 C CNN
+	1    1625 2475
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1425 2475 0    50   Input ~ 0
+AC
+Text GLabel 1425 2575 0    50   Input ~ 0
+IO6
+$Comp
+L Device:R_Small R1
+U 1 1 614709EB
+P 725 2100
+F 0 "R1" H 784 2146 50  0000 L CNN
+F 1 "R_Small" H 784 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 725 2100 50  0001 C CNN
+F 3 "~" H 725 2100 50  0001 C CNN
+	1    725  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 61471827
+P 725 2475
+F 0 "R2" H 784 2521 50  0000 L CNN
+F 1 "R_Small" H 784 2430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 725 2475 50  0001 C CNN
+F 3 "~" H 725 2475 50  0001 C CNN
+	1    725  2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 61471EA7
+P 725 2700
+F 0 "#PWR0125" H 725 2450 50  0001 C CNN
+F 1 "GND" H 725 2525 50  0000 C CNN
+F 2 "" H 725 2700 50  0001 C CNN
+F 3 "" H 725 2700 50  0001 C CNN
+	1    725  2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	725  2700 725  2575
+Wire Wire Line
+	725  2200 725  2275
+Wire Wire Line
+	900  1900 725  1900
+Wire Wire Line
+	725  1900 725  2000
+Wire Wire Line
+	725  2275 1150 2275
+Wire Wire Line
+	1150 2275 1150 2100
+Wire Wire Line
+	1150 2100 1450 2100
+Connection ~ 725  2275
+Wire Wire Line
+	725  2275 725  2375
 $EndSCHEMATC

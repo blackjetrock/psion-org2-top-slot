@@ -1,0 +1,3 @@
+/tree/downloaded_tools/pico/org2-top-slot-breakout-eclipse/pioasm/CMakeFiles/rebuild_cache.dir
+/tree/downloaded_tools/pico/org2-top-slot-breakout-eclipse/pioasm/CMakeFiles/edit_cache.dir
+/tree/downloaded_tools/pico/org2-top-slot-breakout-eclipse/pioasm/CMakeFiles/pioasm.dir
