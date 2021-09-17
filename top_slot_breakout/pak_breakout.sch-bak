@@ -765,7 +765,7 @@ Text GLabel 9750 4075 2    50   Input ~ 0
 IO5
 Text GLabel 9750 3975 2    50   Input ~ 0
 IO6
-Text GLabel 10150 3500 2    50   Input ~ 0
+Text GLabel 9750 3475 2    50   Input ~ 0
 IO7
 Text GLabel 4775 6900 2    50   Input ~ 0
 IO0
@@ -828,32 +828,32 @@ AC
 Text GLabel 1425 2575 0    50   Input ~ 0
 IO6
 $Comp
-L Device:R_Small R?
+L Device:R_Small R1
 U 1 1 614709EB
 P 725 2100
-F 0 "R?" H 784 2146 50  0000 L CNN
+F 0 "R1" H 784 2146 50  0000 L CNN
 F 1 "R_Small" H 784 2055 50  0000 L CNN
-F 2 "" H 725 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 725 2100 50  0001 C CNN
 F 3 "~" H 725 2100 50  0001 C CNN
 	1    725  2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R2
 U 1 1 61471827
 P 725 2475
-F 0 "R?" H 784 2521 50  0000 L CNN
+F 0 "R2" H 784 2521 50  0000 L CNN
 F 1 "R_Small" H 784 2430 50  0000 L CNN
-F 2 "" H 725 2475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 725 2475 50  0001 C CNN
 F 3 "~" H 725 2475 50  0001 C CNN
 	1    725  2475
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 61471EA7
 P 725 2700
-F 0 "#PWR?" H 725 2450 50  0001 C CNN
+F 0 "#PWR0125" H 725 2450 50  0001 C CNN
 F 1 "GND" H 725 2525 50  0000 C CNN
 F 2 "" H 725 2700 50  0001 C CNN
 F 3 "" H 725 2700 50  0001 C CNN

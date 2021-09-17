@@ -474,13 +474,13 @@ Connection ~ 9050 5250
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 60C38A18
-P 4750 2750
-F 0 "J3" H 4642 3035 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 4642 2944 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4750 2750 50  0001 C CNN
-F 3 "~" H 4750 2750 50  0001 C CNN
-	1    4750 2750
-	-1   0    0    -1  
+P 4750 2850
+F 0 "J3" H 4642 3135 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 4642 3044 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R5
@@ -765,8 +765,6 @@ Text GLabel 9750 4075 2    50   Input ~ 0
 IO5
 Text GLabel 9750 3975 2    50   Input ~ 0
 IO6
-Text GLabel 10150 3500 2    50   Input ~ 0
-IO7
 Text GLabel 4775 6900 2    50   Input ~ 0
 IO0
 Text GLabel 4775 6800 2    50   Input ~ 0
@@ -877,4 +875,6 @@ Wire Wire Line
 Connection ~ 725  2275
 Wire Wire Line
 	725  2275 725  2375
+Text GLabel 9750 3475 2    50   Input ~ 0
+IO7
 $EndSCHEMATC
