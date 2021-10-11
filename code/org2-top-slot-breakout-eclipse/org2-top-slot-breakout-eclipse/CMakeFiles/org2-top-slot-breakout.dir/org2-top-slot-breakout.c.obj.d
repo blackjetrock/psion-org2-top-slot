@@ -54,43 +54,10 @@ CMakeFiles/org2-top-slot-breakout.dir/org2-top-slot-breakout.c.obj: \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
- /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffconf.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h \
- /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h \
- /usr/include/newlib/time.h /usr/include/newlib/machine/time.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h \
- /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
- /tree/downloaded_tools/pico/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
